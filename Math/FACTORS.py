@@ -1,4 +1,8 @@
-n = int(input("Factors of what? "))
+# Find all the factors of a given number
+# this process seems to be very slow/inefficient for very large numbers
+
+print("FACTORS")
+n = int(input("What number would you like to find factors of? "))
 
 print("Finding all factors of {0}...".format(n))
 
