@@ -16,7 +16,7 @@ def SD_means(sigma1, sigma2, n1, n2):
 
 def clear_screen():
     i = 1
-    while i < 12:
+    while i < 4:
         print()
         i = i + 1
 
@@ -79,5 +79,3 @@ def main():
     else:
         print("Invalid choice. Exiting...")
         exit()
-
-main()
